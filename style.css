@@ -23,6 +23,11 @@ img {
     margin-bottom: 17px;
 }
 
+#img-wrapper {
+    border-right: 1px solid #FFFFFF;
+    padding-right: 23px;
+}
+
 p {
     font-family: 'Inter';
     font-size: 14px;
@@ -66,4 +71,42 @@ h3 {
     height: 47px;
     margin-top: 46px;
     margin-bottom: 22px;
+}
+
+#content {
+    display: flex;
+}
+
+#side-bar {
+    width: 115px;
+    height: 957px;
+    border: 1px solid #FFFFFF;
+}
+
+#main-content {
+    width: 1123px;
+    background: rebeccapurple;
+    padding-left: 82px;
+    display: grid;
+    grid-template-columns: 520px 581px;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 48px;
+    width: 520px;
+    margin-top: 222px;
+}
+
+#texto-centro {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    width: 463px;
+    margin-top: 10px;
+}
+
+#img-centro {
+    margin-top: 186px;
 }
