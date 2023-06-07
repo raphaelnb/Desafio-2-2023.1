@@ -4,6 +4,11 @@
     background-color: #1E1E1E;
 }
 
+body {
+    width: 1440px;
+    height: 1024px;
+}
+
 section {
     margin-left: 43px;
     margin-top: 36px;
@@ -17,7 +22,7 @@ header {
     display: flex;
 }
 
-img {
+#logo-engnet {
     margin-top: 29px;
     margin-left: 23px;
     margin-bottom: 17px;
@@ -79,13 +84,23 @@ h3 {
 
 #side-bar {
     width: 115px;
-    height: 957px;
+    height: 843px;
     border: 1px solid #FFFFFF;
+    margin-top: -1px;
+}
+
+#side-logos-div {
+    margin-top: 638px;
+    margin-left: 37px;
+    margin-right: 38px;
+}
+
+.side-logos-mini {
+    margin-bottom: 19px;
 }
 
 #main-content {
     width: 1123px;
-    background: rebeccapurple;
     padding-left: 82px;
     display: grid;
     grid-template-columns: 520px 581px;
