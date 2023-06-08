@@ -5,39 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
     <title>Serviços</title>
 </head>
 <body>
     <section>
         <header>
-            <div id="img-wrapper">    
-                <img id="logo-engnet" src="./assets/Assinatura_Simbolo.svg" />
+            <div class="img-wrapper">    
+                <img class="logo-engnet" src="./assets/Assinatura_Simbolo.svg" />
             </div>
-            <div id="links">
-                <div class="link-header">
-                    <p>01</p>
-                    <h3>Servicos</h3>
+            <div class="links">
+                <div class="link-header service-link">
+                    <a href="./servicos.html">
+                        <p>01</p>
+                        <h3>Servicos</h3>
+                    </a>
                 </div>
-                <div class="link-header">
-                    <p>02</p>
-                    <h3>Sobre nós</h3>
+                <div class="link-header sobre-link">
+                    <a href="./index.html">
+                        <p>02</p>
+                        <h3>Sobre nós</h3>
+                    </a>
                 </div>
-                <div class="link-header">
-                    <p>03</p>
-                    <h3>Processo seletivo</h3>
+                <div class="link-header processo-link">
+                    <a href="./index.html">
+                        <p>03</p>
+                        <h3>Processo seletivo</h3>
+                    </a>
                 </div>
             </div>
-            <div id="email">
-                <h3 id="fale">Fale com a gente</h3>
-                <img src="./assets/o-email (1) 1.svg" alt="" id="img-email">
+            <div class="email" onclick="mail()">
+                <h3 class="fale">Fale com a gente</h3>
+                <img src="./assets/o-email (1) 1.svg" alt="" class="img-email">
             </div>
         </header>
-        <div id="content">
-            <div id="side-bar">
-                <div id="side-logos-div">
-                    <img class="side-logos-mini" src="./assets/instagram (2) 1.png" />
-                    <img class="side-logos-mini" src="./assets/linkedin (2) 1.png" />
-                    <img src="./assets/whatsapp (1) 1.png" />
+        <div class="body-component">
+            <div class="side-bar">
+                <div class="side-logos-div">
+                    <img class="side-logos-mini" src="./assets/instagram (2) 1.png" onclick="openInsta()" />
+                    <img class="side-logos-mini" src="./assets/linkedin (2) 1.png" onclick="openLinkedin()" />
+                    <img class="side-logos-mini" src="./assets/whatsapp (1) 1.png" onclick="openWhats()" />
                 </div>
             </div>
             <div id="service-content">
@@ -85,7 +92,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 </body>
 </html>
