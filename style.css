@@ -389,4 +389,35 @@ h1 {
         width: 8vw;
     }
 
+    #service-content {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        padding: 0;
+        grid-row: 1 / 2 ;
+        margin-top: 10vh;
+    }
+
+    .service {
+        height: 344px;
+        padding: 4vw;
+    }
+
+    .img-service {
+        margin-top: calc(76px - 4vw);
+    }
+
+    #text-big {
+        width: 80vw;
+    }
+}
+
+@media(max-width: 462px) {
+    #title-big {
+        font-size: 5vw;
+    }
+
+    .text-service {
+        width: 90vw;
+    }
 }
